@@ -1,0 +1,41 @@
+.product-screen .product-list.o_pos_switch_list {
+    grid-template-columns: minmax(0, 1fr);
+
+    .product.o_pos_switch_row {
+        min-height: 4.5rem;
+        width: 100%;
+
+        .product-img {
+            flex: 0 0 4rem;
+            width: 4rem;
+            align-self: center;
+            margin: 0.25rem;
+
+            img {
+                border-radius: inherit;
+            }
+        }
+
+        .product-content {
+            flex: 1 1 0;
+            min-width: 0;
+            height: auto !important;
+            align-items: center;
+            padding-right: 4rem !important;
+        }
+
+        .product-name {
+            display: block !important;
+            aspect-ratio: auto;
+            text-align: start !important;
+            overflow-wrap: anywhere;
+        }
+
+        .product-cart-qty {
+            top: 50%;
+            bottom: auto !important;
+            transform: translateY(-50%);
+            margin-top: 0 !important;
+        }
+    }
+}
