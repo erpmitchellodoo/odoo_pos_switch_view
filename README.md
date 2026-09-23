@@ -1,0 +1,1 @@
+# odoo_pos_switch_view
